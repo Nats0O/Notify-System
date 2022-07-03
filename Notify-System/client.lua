@@ -8,6 +8,6 @@ AddEventHandler('nats0:manda', function(message)
 end)
 
 Notifica = function(msg)
-    TriggerEvent('nats0:manda', source, msg)
+    TriggerEvent('nats0:manda', msg)
 end
 
